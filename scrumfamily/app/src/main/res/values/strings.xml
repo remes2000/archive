@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">Scrum Family</string>
+    <string name="openDrawer">otwarte</string>
+    <string name="closeDrawer">zamkniete</string>
+
+    <string name="newSprint">Nowy sprint</string>
+    <string name="taskBlackboard">Tablica zadań</string>
+    <string name="addTasks">Dodaj zadania</string>
+
+    <string name="nextTask">Następne zadanie</string>
+
+    <string name="goNext">Przejdź dalej</string>
+
+    <string name="whenSprintStarts">Data rozpoczęcia sprintu</string>
+    <string name="whenSprintEnds">Data zakończenia sprintu</string>
+    <string name="nowAddTasks">Dodaj zadania do sprintu</string>
+    <string name="tasksBoard">Tablica zadań</string>
+    <string name="tasksDone">Zadania już zrobione</string>
+    <string name="tasksTodo">Zadania do zrobienia</string>
+    <string name="tasksInProgress">Zadania nad którymi pracujesz</string>
+    <string name="logInToApp">Zaloguj się do aplikacji</string>
+    <string name="setSprintTitle">Tytuł twojego nowego sprintu</string>
+    <string name="organiseSprints">Zarządzaj sprintami</string>
+
+    <string name="wrongInput">Podano błędne dane, Wporwadź date końcową jeszcze raz</string>
+    <string name="wrongInputv2">Podano błędne dane, Wporwadź date początkową jeszcze raz</string>
+
+    <string name="tasksSuccesfulAdded">Zadania zostały poprawnie dodane !</string>
+
+    <string name="error">Wystąpił błąd !</string>
+    <string name="refresh">Odśwież</string>
+
+
+    <string name="logIntoUseApplication">Zaloguj się, aby używać aplikacji !</string>
+    <string name="ok">ok</string>
+    <string name="cancel">anuluj</string>
+    <string name="whereSaveTasks">Gdzie zapisać zadania ?</string>
+    <string name="nickError">Nick może zawierać tylko litery od a do Z oraz cyfry od 0 do 9 bez polskich znaków</string>
+    <string name="sprintTitleError">Tytuł może zawierać tylko litery od a do Z, cyfry od 0 do 9 oraz spacje</string>
+
+    <string name="sprintSummary">Podsumowania</string>
+
+    <string name="yourSprintsDoesntExist">Nie posiadasz żadnego sprintu ! Możesz utworzyć swój sprint w sekcji "Nowy Sprint".</string>
+
+    <string name="whichOneOpen">Który sprint otworzyć ?</string>
+
+    <string name="youHaveToAddTasks">Należy dodać zadania przed zapisem !</string>
+    <string name="tasksHaveToHaveTitle">Zadania muszą mieć tytuł !</string>
+
+    <string name="save">Zapisz</string>
+    <string name="didintSaveTasksError">Twoje zadania nie zostały zapisane. Czy chcesz je zapisać ?</string>
+
+    <string name="sprintSuccesfullAdded">Sprint został uwtorzony poprawnie !</string>
+    <string name="sprintFalse">Masz już sprint o tym tytule !</string>
+
+    <string name="completeAllBlanks">Uzupełnij wszystkie pola !</string>
+
+    <string name="yourSprintIsEmpty">Twój sprint jest pusty</string>
+    <string name="youtDontHaveAnySprints">Nie masz żadnego sprintu</string>
+
+    <string name="registerNow">Nie masz jeszcze konta ?</string>
+    <string name="registerNowv2">Zarejestruj się</string>
+    <string name="logIn">Zaloguj się</string>
+    <string name="logOut">Wyloguj się</string>
+    <string name="rememberMe">zapamiętaj mnie</string>
+
+    <string name="showPasswords">pokaż hasła</string>
+
+    <string name="welcome">Witaj</string>
+
+    <string name="correctlyRegistered">Zostałeś poprawnie zarejestrowany ! </string>
+    <string name="registerFailedByEmail">Użytkownik o tym adresie e-mail już istnieje ! </string>
+    <string name="registerFailedByNick">Użytkownik o tym nicku już istnieje ! </string>
+
+    <string name="passwordsAreNotTheSame">Hasła nie są takie same lub są nieprawidłowe !</string>
+    <string name="wrongEmailAdress">Podano nieprawidłowy adres email !</string>
+
+    <string name="saveTasks">Zapisz zadania !</string>
+
+    <string name="password">hasło</string>
+    <string name="login">e-mail</string>
+    <string name="nick">nick</string>
+
+    <string name="title">Tytuł</string>
+    <string name="description">Opis</string>
+
+    <string name="goNextv2">Gotowe, dodaj zadania</string>
+
+    <string name="connectionFailed">Błąd połączenia z Internetem, spróbuj ponownie później.</string>
+    <string name="logInFailed">Nieprawidłowe hasło/e-mail</string>
+    <string name="logInAgree">Zalogowano poprawnie</string>
+
+    <string name="emailAdress">Adres e-mail</string>
+    <string name="passwordRegistration">Hasło</string>
+    <string name="passwordRepeatRegistration">Powtórz hasło</string>
+    <string name="doYouWantDeleteSprints">Czy napewno usunąć sprint ?</string>
+    <string name="doYouWantDeleteSummary">Czy napewno usunąć to podsumowanie ?</string>
+
+    <string name="deleteSprint">Usuń sprint</string>
+    <string name="addMembers">Dodaj użytkowników do sprintu</string>
+    <string name="leaveSprint">Opuść sprint</string>
+
+    <string name="succesfullDelete">Sprint został poprawnie usunięty !</string>
+
+    <string name="sprintIsEmpty">Twój sprint jest pusty. Możesz dodać zadania w sekcji dodaj zadania !</string>
+
+    <string name="yourInvites">Twoje zaproszenia</string>
+
+    <string name="sendInvitation">Wyślij zaproszenie</string>
+
+    <string name="invitationSent">Zaproszenie zostało wysłane !</string>
+    <string name="userDoesntExsist">Użytkownik o takim nicku nie istnieje !</string>
+
+    <string name="todo"> Do zrobienia</string>
+
+    <string name="inprogress"> W trackie pracy</string>
+
+    <string name="done"> Zrobione</string>
+
+    <string name="doingTask">Nad zadaniem pracuje : </string>
+    <string name="doneTask">Zadanie wykonał : </string>
+    <string name="taskisstealtodo">Zadanie czeka na wykonawce</string>
+
+    <string name="state">Status : </string>
+
+    <string name="claimTask">Weź zadanie</string>
+
+    <string name="myTasks">Moje zadania</string>
+
+    <string name="resetTask">Resetuj zadanie</string>
+
+    <string name="taskDone">Zadanie zrobione</string>
+
+    <string name="yoursTasks">Zadania którymi się zajmujesz</string>
+    <string name="yoursDoneTasks">Zadania które już wykonałeś</string>
+
+    <string name="cannotaddyourself">Nie możesz dodać samego siebie !</string>
+
+    <string name="sprintTitle">tytuł sprintu</string>
+
+    <string name="youdidntgetanyinvitations">Nie dostałeś żadnych zaproszeń</string>
+
+    <string name="onlyLettersAndNumbers">tylko litery i cyfry</string>
+
+    <string name="newInvitation">Nowe zaproszenie do sprintu !</string>
+
+    <string name="deleteTask">Usuń to zadanie</string>
+
+    <string name="ascribeTask">Przypisz zadanie do użytkownika</string>
+
+    <string name="chooseAction">Wybierz akcje</string>
+
+    <string name="youLeftSprint">Opuściłeś sprint</string>
+
+    <string name="doYouWantLeaveSprint">Czy chcesz opuścić ten sprint ?</string>
+
+    <string name="whichOneUser">Do którego użytkownika przypisać to zadanie ?</string>
+
+    <string name="endAndSummarySprint">Zakończ i podsumuj sprint</string>
+
+    <string name="showSprintMembers">Lista uczestników</string>
+
+    <string name="manageSprintMembers">Zarządzaj uczestnikami</string>
+
+    <string name="kickMember">Wyrzuć tego uczestnika</string>
+
+    <string name="goToTaskBoard">Przejdź do tablicy zadań!</string>
+
+    <string name="youDontHaveAnyTasks">Nie posiadasz żadnych zadań!</string>
+
+    <string name="canDownloadFor">Możesz zapisać jeszcze przez </string>
+
+    <string name="sprintSavedInPhoneMemory">Podsumowanie zapisane w pamięci wewnętrznej telefonu.</string>
+
+    <string name="doYouWantEndSprint">Czy napewno chcesz zakończyć sprint ?</string>
+
+    <string name="days">dni.</string>
+
+    <string name="alternativeDays">dzień.</string>
+
+    <string name="mostTasksDone">Najwięcej zadań zrobił:</string>
+
+    <string name="doneTasksText">Zrobionych zadań ogółem:</string>
+
+    <string name="notDoneTasksText">Zadania nie zrobione ogółem:</string>
+
+    <string name="startDate">Data startu:</string>
+
+    <string name="endDate">Data zakończenia</string>
+
+    <string name="durationTime">Czas trwania</string>
+
+    <string name="reconnect">Przejdź w tryb online</string>
+
+    <string name="optionAvaliableOnlyInOnlineMode">Opcja dostępna tylko w trybie online.</string>
+
+    <string name="didintChoose">Nie wybrano.</string>
+
+    <string name="sprintSummaries">Podsumowania sprintów</string>
+
+    <string name="showTasks">Pokaż tablice zadań</string>
+
+    <string name="thisSprintWasEmpty">Ten sprint był pusty.</string>
+
+    <string name="youAreInOfflineMode">Jesteś w trybie offline. Przejdź do zakładki zaloguj aby to zmienić.</string>
+    <string name="uRInOfflineMode">Jesteś w trybie offline.</string>
+    <string name="noEndedSprints">Żaden z twoich sprintów nie jest zakończony</string>
+    <string name="youCanSaveOnlyToday">Możesz zapisać tylko dzisiaj.</string>
+    <string name="youCantKickYourself">Nie możesz wyrzucić się ze sprintu.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

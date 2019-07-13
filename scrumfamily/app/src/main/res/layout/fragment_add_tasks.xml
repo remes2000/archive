@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.nieruchalski.scrumfamily.Fragments.AddTasksFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewAddTasks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="15dp"/>
+
+        <EditText
+            android:id="@+id/editText1AddTasks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/textViewAddTasks"
+            android:layout_alignBottom="@+id/textViewAddTasks"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/editText2AddTasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="10"
+            android:layout_below="@+id/editText1AddTasks"
+            android:layout_marginTop="50dp" />
+
+        <TextView
+            android:id="@+id/textView2AddTasks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Opis"
+            android:layout_below="@id/editText2AddTasks"
+            />
+
+        <Button
+            android:id="@+id/buttonAddTasks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nextTask"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"/>
+
+        <ProgressBar
+            android:id="@+id/addTasksProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

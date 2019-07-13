@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/actionbarGroup"
+        android:visible="false">
+        <item
+        android:id="@+id/saveTasksActionBarIcon"
+        android:icon="@mipmap/savetasks"
+        android:title="@string/saveTasks"
+        android:showAsAction="ifRoom"/>
+    </group>
+
+    <group
+        android:id="@+id/actionbarGroupRefresh"
+        android:visible="false">
+        <item
+            android:id="@+id/refreshTasksActionBarIcon"
+            android:icon="@mipmap/refresh"
+            android:title="@string/refresh"
+            android:showAsAction="ifRoom"/>
+    </group>
+
+    <group
+        android:id="@+id/actionbarGroupRefreshInvitation"
+        android:visible="false">
+        <item
+            android:id="@+id/refreshTasksActionBarIconInvitation"
+            android:icon="@mipmap/refresh"
+            android:title="@string/refresh"
+            android:showAsAction="ifRoom"/>
+    </group>
+
+    <group
+        android:id="@+id/actionbarGroupRefreshYourTasks"
+        android:visible="false">
+        <item
+            android:id="@+id/refreshYourTasksActionBarIcon"
+            android:icon="@mipmap/refresh"
+            android:title="@string/refresh"
+            android:showAsAction="ifRoom"/>
+    </group>
+
+    <group
+        android:id="@+id/actionBarGroupManageTask"
+        android:visible="false">
+        <item
+            android:id="@+id/manageTask"
+            android:icon="@mipmap/ic_managetask"
+            android:title="@string/refresh"
+            android:showAsAction="ifRoom"/>
+    </group>
+
+    <group
+        android:id="@+id/actionBarGroupRefreshSummaries"
+        android:visible="false">
+        <item
+            android:id="@+id/refreshSummaries"
+            android:icon="@mipmap/refresh"
+            android:title="@string/refresh"
+            android:showAsAction="ifRoom"/>
+    </group>
+
+    <group
+        android:id="@+id/actionBarGroupDeleteSummary"
+        android:visible="false">
+        <item
+            android:id="@+id/deleteSummary"
+            android:icon="@mipmap/trash_icon"
+            android:title="@string/refresh"
+            android:showAsAction="ifRoom"/>
+    </group>
+
+
+</menu>

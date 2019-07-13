@@ -1,0 +1,30 @@
+﻿<div class="col-md-12">
+    <h3>Rejestracja</h3>
+    <form ng-submit="formSubmit()" class="form">
+        <div class="col-md-4">
+            <div class="form-group">
+                <input type="text" class="form-control" ng-model="Username" placeholder="Username" />
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" ng-model="Name" placeholder="Name" />
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" ng-model="Surname" placeholder="Surname" />
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" ng-model="Email" placeholder="E-mail" />
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" ng-model="Password" placeholder="Password" />
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" ng-model="Repeatpassword" placeholder="Repeat Password" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success">Register</button>
+                <span class="text-danger">{{ error }}</span>
+            </div>
+            <button type="button" class="btn" ng-click="askApiForImportantData()">ShowAlert</button>
+        </div>
+    </form>
+</div>

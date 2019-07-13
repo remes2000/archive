@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/taskCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/optionsCardView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:padding="3dp"
+        card_view:cardCornerRadius="10dp"
+        android:layout_centerHorizontal="true"
+        card_view:cardBackgroundColor="#000000">
+
+        <ImageView
+            android:id="@+id/optionIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ic_add_tasks_white"/>
+
+    </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/optionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zarządzaj urzytkownikami"
+            android:layout_below="@id/optionsCardView"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

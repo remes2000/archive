@@ -1,0 +1,19 @@
+#root > div > div > .container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 999px){
+    #root > div > div > .container{
+       width: 100%;
+   }
+
+   nav .brand-logo{
+       width: 100%;
+       text-align: center;
+   }
+
+   form > h3{
+       font-size: 2rem;
+   }
+}

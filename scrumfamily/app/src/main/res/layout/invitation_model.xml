@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/buttonAcceptInvitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/accept_invitation"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:id="@+id/buttonDeclineInvitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/decline_invitation"
+        android:layout_toLeftOf="@+id/buttonAcceptInvitation"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:id="@+id/sprintTitleInvitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Niedzielne porządki"
+        android:layout_toLeftOf="@+id/buttonDeclineInvitation"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/fromInvitation"
+        android:layout_below="@id/sprintTitleInvitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remes"
+        android:layout_toLeftOf="@+id/buttonDeclineInvitation"
+        android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>
